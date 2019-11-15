@@ -1,6 +1,3 @@
-require 'open-uri'
-require 'JSON'
-
 puts 'Cleaning database...'
 Ingredient.destroy_all
 
